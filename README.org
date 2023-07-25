@@ -1,0 +1,60 @@
+* Mishna_Berura_PDF_TOC
+
+A set of Mishna Berura (משנה ברורה) PDF files with real (and detailed)
+tables of contents.
+
+** Background
+
+The [[https://www.hebrewbooks.org/][Hebrew Books]] web site provides several PDF editions of [[https://www.hamichlol.org.il/%D7%9E%D7%A9%D7%A0%D7%94_%D7%91%D7%A8%D7%95%D7%A8%D7%94][Mishna
+Berura]] ([[https://en.wikipedia.org/wiki/Mishnah_Berurah][English]]), but all are image scans and none include tables of
+contents clickable from the PDF side-pane. I wrote a [[https://github.com/boruch-Baum/pdf-toc][script]] to
+support non-destructive and reversible editing of PDF true tables of
+contents and then used the script for the PDFs of the year 5751
+edition of Mishna Berura. That edition is the one with a clean
+typeset, Piskei Shulchan Auch HaRav (פסקי שלחן ערוך הרב), Piskei
+Chazon Ish (פסקי חזון איש), the summaries of sefer Shinun Halacha
+(שינון הלכה), the index of sefer Mafteach HaShulchan (מפתח השלחן), and
+assorted diagrams, illustrations, and tables. Thus, the six files in
+this repository are modifications to [[https://www.hebrewbooks.org/60386][1]] [[https://www.hebrewbooks.org/60387][2]] [[https://www.hebrewbooks.org/60388][3]] [[https://www.hebrewbooks.org/60389][4]] [[https://www.hebrewbooks.org/60390][5]] [[https://www.hebrewbooks.org/60391][6]].
+
+** What is a 'true' table of contents
+
+PDF files have several features that can be [[https://www.merriam-webster.com/dictionary/MacGyver][McGyver]]'ed into seeming
+like tables of contents. The PDF standard supports bookmarks and
+annotations, each of which is designed for *readers* to edit. Thus, a
+reader could easily make a bookmark or annotation side pane function
+as a table of contents by creating an entry for each TOC element. This
+approach has drawbacks. For example, once you're using the bookmark or
+annotation sidebar for a TOC, how are you going to use that sidebar
+for its intended purpose? And, because those sidebars are designed to
+be easily edited by *readers*, it's going to be easy to at some point
+mess up your TOC work. True (or real) PDF table of contents is a
+feature in the PDF standard intended to be created by *authors* and
+not intended to be edited by readers at all. When an author includes
+this feature in a PDF file, a TOC sidebar tab is exposed to readers,
+next to the sidebar tabs for thumbnails, annotations, and bookmarks.
+
+** Doing this for other texts
+
+Wouldn't it be great if this were done for other seforim? Anyone and
+everyone can do their part for the seforim of their choice, using the
+software that I wrote [[https://github.com/boruch-Baum/pdf-toc][here]]. However, if individuals do so on their own
+without coordination, that will inevitably in the long run lead to
+duplication of effort, lack of quality control, and difficulty
+discovering and sharing the results. The advantage of individual
+initiative is that it's very quick and responsive - I invested a just
+a few hours and now can use and share this sefer with anyone and
+everyone, forever. At the other extreme, everyone can be lazy and
+deferential to some possibly non-existent self-nominated central
+authority. That approach also has its clear advantages and
+disadvantages. Personally, I'm not committed to any particular
+approach, but I would appreciate email and sharing of similar work for
+other seforim.
+
+** Colophon
+
++ Copyright: © 2023, Boruch Baum <boruch_baum@gmx.com>
+
++ License :: This repository inherits whatever license(s), if any,
+  applied to the original contents by the original source as of
+  June 2023.
